@@ -1,0 +1,29 @@
+﻿@page "/LotsOfSockets"
+
+<h3>LotsOfSockets</h3>
+
+@if(SockProcessRunning)
+{
+	<MudProgressCircular Color="Color.Default" Indeterminate="true" />
+	
+}else
+{
+	<MudButton Variant="Variant.Filled" OnClick="StartSocketBuild">Open Sockets</MudButton>
+}
+
+<h2>Sockets Tries: @SocketsTried</h2>
+<h2>Sockets Opened: @SocketsOpen</h2>
+<h2>Sockets Failed: @SocketsFailed</h2>
+@if (ListOfContexts != null)
+{
+	<h2>Number of Contexts: @ListOfContexts.Count</h2>
+}
+@if (ErrorMessage != null)
+{
+		
+	<h2>Error Message: @ErrorMessage</h2>
+}
+@code {
+
+
+}
