@@ -1,0 +1,31 @@
+{
+  "ExtendedData": {
+    "inputs": [
+      "https://www.dataaccess.com/webservicesserver/TextCasing.wso"
+    ],
+    "collectionTypes": [
+      "System.Array",
+      "System.Collections.Generic.Dictionary`2"
+    ],
+    "namespaceMappings": [
+      "*, ServiceReference1"
+    ],
+    "references": [
+      "Microsoft.AspNetCore.Authorization, {Microsoft.AspNetCore.Authorization, 5.0.10}",
+      "Microsoft.AspNetCore.Components, {Microsoft.AspNetCore.Components, 5.0.10}",
+      "Microsoft.AspNetCore.Components.Forms, {Microsoft.AspNetCore.Components.Forms, 5.0.10}",
+      "Microsoft.AspNetCore.Components.Web, {Microsoft.AspNetCore.Components.Web, 5.0.10}",
+      "Microsoft.AspNetCore.Metadata, {Microsoft.AspNetCore.Metadata, 5.0.10}",
+      "Microsoft.Extensions.DependencyInjection, {Microsoft.Extensions.DependencyInjection, 5.0.2}",
+      "Microsoft.Extensions.DependencyInjection.Abstractions, {Microsoft.Extensions.DependencyInjection.Abstractions, 5.0.0}",
+      "Microsoft.Extensions.Logging.Abstractions, {Microsoft.Extensions.Logging.Abstractions, 5.0.0}",
+      "Microsoft.Extensions.Options, {Microsoft.Extensions.Options, 5.0.0}",
+      "Microsoft.Extensions.Primitives, {Microsoft.Extensions.Primitives, 5.0.0}",
+      "Microsoft.JSInterop, {Microsoft.JSInterop, 5.0.10}",
+      "MudBlazor, {MudBlazor, 5.1.5}",
+      "System.IO.Pipelines, {System.IO.Pipelines, 5.0.1}"
+    ],
+    "targetFramework": "net6.0",
+    "typeReuseMode": "All"
+  }
+}

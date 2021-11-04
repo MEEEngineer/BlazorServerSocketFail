@@ -31,6 +31,8 @@ namespace BlazorServerSocketFailTestApp
 			services.AddServerSideBlazor();
 			services.AddSingleton<WeatherForecastService>();
 			services.AddMudServices();
+
+			//services.AddSingleton<ServiceReference1.TextCasingSoapType>();
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -47,7 +49,7 @@ namespace BlazorServerSocketFailTestApp
 				app.UseHsts();
 			}
 
-			app.UseHttpsRedirection();
+			//app.UseHttpsRedirection();
 			app.UseStaticFiles();
 
 			app.UseRouting();
